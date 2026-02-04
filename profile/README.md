@@ -34,7 +34,7 @@ Our architecture prioritizes performance and modern developer experience.
 | Core | Desktop | Styling | Backend |
 | :--- | :--- | :--- | :--- |
 | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=Electron&logoColor=white) | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **Next.js** | **TypeScript** | **Framer Motion** | **PostgreSQL** |
+| **Next.js** | **TypeScript** | **Framer Motion** | **SQLite** |
 
 ### 🚀 Roadmap
 
