@@ -50,8 +50,8 @@ Built with a modern, type-safe architecture focusing on performance and local-fi
 
 We are currently in **active development**.
 
-- [ ] **Alpha:** Core note-taking and local graph engine.
-- [ ] **Beta:** "Teamspace" collaboration features via Supabase.
+- [x] **Alpha:** Core note-taking and local graph engine.
+- [x] **Beta:** "Teamspace" collaboration features via Supabase.
 - [ ] **v1.0:** Public plugin API release.
 
 ### 👥 The Team
