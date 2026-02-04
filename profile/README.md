@@ -33,19 +33,18 @@ Our architecture prioritizes performance and modern developer experience.
 
 ### 🛠 Tech Stack
 
-Graphon is built on a high-performance, local-first architecture.
+Built with a modern, type-safe architecture focusing on performance and local-first reliability.
 
-| Core | Data & State | Editor & Graph | UI & Interaction |
+| Core Platform | UI & Styling | Data & Storage | Engine & Intelligence |
 | :--- | :--- | :--- | :--- |
-| ![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=Electron&logoColor=white) | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) | ![Tiptap](https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white) | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
-| **Electron Toolkit** | **Drizzle ORM** | **PixiJS** | **Radix UI** |
+| ![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=Electron&logoColor=white) <br> **Electron** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) <br> **React** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) <br> **TypeScript** | ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) <br> **Tailwind CSS** |
 
-**Key Libraries:**
-* **Local Database:** `better-sqlite3` + `drizzle-orm` for instant, offline-ready data.
-* **Rich Text:** `@tiptap` ecosystem for a Notion-like editing experience.
-* **Graph Visualization:** `pixi.js` + `d3-force` for rendering massive knowledge graphs efficiently.
-* **Local AI:** `@xenova/transformers` for on-device intelligence without data leaks.
-* **Sync:** `@supabase/supabase-js` (Optional cloud synchronization).
+**Under the Hood:**
+* **Database:** `better-sqlite3` + `drizzle-orm` (Local-first, typed SQL)
+* **Editor:** `@tiptap` (Headless rich text)
+* **Graph:** `pixi.js` + `d3-force` (WebGL graph rendering)
+* **Local AI:** `@xenova/transformers` (On-device inference)
+* **Interaction:** `framer-motion` + `cmdk` (Animations & Command Palette)
 
 ### 🚀 Roadmap
 
