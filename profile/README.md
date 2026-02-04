@@ -31,10 +31,21 @@ Graphon is built on a simple philosophy: **Your data belongs to you.** We are bu
 
 Our architecture prioritizes performance and modern developer experience.
 
-| Core | Desktop | Styling | Backend |
+### 🛠 Tech Stack
+
+Graphon is built on a high-performance, local-first architecture.
+
+| Core | Data & State | Editor & Graph | UI & Interaction |
 | :--- | :--- | :--- | :--- |
-| ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=Electron&logoColor=white) | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **Next.js** | **TypeScript** | **Framer Motion** | **SQLite** |
+| ![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=Electron&logoColor=white) | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) | ![Tiptap](https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white) | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
+| **Electron Toolkit** | **Drizzle ORM** | **PixiJS** | **Radix UI** |
+
+**Key Libraries:**
+* **Local Database:** `better-sqlite3` + `drizzle-orm` for instant, offline-ready data.
+* **Rich Text:** `@tiptap` ecosystem for a Notion-like editing experience.
+* **Graph Visualization:** `pixi.js` + `d3-force` for rendering massive knowledge graphs efficiently.
+* **Local AI:** `@xenova/transformers` for on-device intelligence without data leaks.
+* **Sync:** `@supabase/supabase-js` (Optional cloud synchronization).
 
 ### 🚀 Roadmap
 
